@@ -5,9 +5,10 @@ $main-font: 'Roboto', sans-serif;
 @import 'top'; 
 @import 'about'; 
 @import 'experience'; 
+@import 'projects'; 
 
 //notes of things to fix: 
-//text in sidebar att screen 700
+//hover overlay with opacity color over images
 
 body {
     margin: 0;
