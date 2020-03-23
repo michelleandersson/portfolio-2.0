@@ -241,6 +241,7 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-right: 15px;
 }
 
 .education__title {
