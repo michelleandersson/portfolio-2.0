@@ -36,7 +36,6 @@
   font-weight: bold;
   color: #fff;
   margin-bottom: 10px;
-  margin-top: 50px;
   margin-left: 30px;
 }
 .sidebar .profile .sidebar__title {
@@ -46,8 +45,7 @@
   margin-bottom: 50px;
   margin-left: 30px;
 }
-.sidebar li > a {
-  /*fix space between icon and link text*/
+.sidebar .nav__link > a {
   display: block;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -56,15 +54,18 @@
   margin-left: 20px;
   text-decoration: none;
 }
-.sidebar li > a:active {
+.sidebar .nav__link > a .nav-icon {
+  margin-right: 10px;
+}
+.sidebar .nav__link > a:active {
   background-color: #6cc0f7;
   color: white;
 }
-.sidebar li > a:focus {
+.sidebar .nav__link > a:focus {
   background-color: #6cc0f7;
   color: white;
 }
-.sidebar li > a:hover {
+.sidebar .nav__link > a:hover {
   transition: 0.5ms ease-in;
   color: #fff;
   background-color: #384049;
@@ -76,10 +77,13 @@
 .social-icons li {
   display: inline-block;
   margin-top: 30px;
+  margin-left: 20px;
 }
 .social-icons a {
-  font-size: 14px;
+  font-size: 20px;
   color: #fff;
+  margin-left: 20px;
+  padding-right: 10px;
 }
 .social-icons a:hover {
   color: #000;
@@ -115,7 +119,7 @@
   }
   .profile .sidebar__name {
     margin-bottom: 10px;
-    margin-top: -50px;
+    margin-top: 0px;
   }
   .profile .sidebar__title {
     font-size: 14px;
