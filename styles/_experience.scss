@@ -14,19 +14,14 @@
     font-family: $main-font;
     font-weight: bold;
     color: $heading-color;
-    margin-bottom: 40px;
 }
 
 .experience__container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
 
-}
-
-.work {
-    margin-left: 50px;
 }
 
 .education__title {
@@ -35,11 +30,23 @@
     font-weight: bold;
     color: $heading-color;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .experience__list {
     list-style: disc;
+    font-family: $main-font;
     ul>li {
         margin-left: 10px;
+        font-size: 13px;
+        font-family: $main-font;
+        color: $body-color;
+        line-height: 1.2;
     }
+}
+
+.skills>ul {
+    line-height: 1.5;
+    font-family: $main-font;
+    color: $body-color;
 }

@@ -1,7 +1,7 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 25%;
     background-color: $sidebar-bg;
     position: fixed;
     height: 100%;
@@ -44,7 +44,7 @@
             font-size: 14px;
             font-family: $main-font;
             color: $white;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             margin-left: 30px;
         }
     }
@@ -53,7 +53,7 @@
         display: block;
         color: $white;
         font-family: $main-font;
-        font-size: 14px;
+        font-size: 19px;
         padding: 20px;
         margin-left: 20px;
         text-decoration: none; 
@@ -66,14 +66,33 @@
             color: white; 
         }
         &:hover {
-            background-color:$body-color;
+           // background-color:$body-color;
+            //color: $white;
+            transition: 0.5ms ease-in;
             color: $white;
+            background-color: $sidebar-accent;
         }
     }
     
 }
+
+.social-icons {
+    display: block;
+	li {
+        display: inline-block;
+        margin-top: 30px;
+	}
+	a {
+		font-size: 14px;
+		color: $white;
+		&:hover {
+            color: $black;
+            background-color: $sidebar-bg;
+		}
+	}
+}
  /*fix name and title in media 700*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .sidebar {
       width: 100%;
       height: auto;
@@ -82,7 +101,7 @@
     .sidebar a {float: left;}
 }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .sidebar a {
       text-align: right;
       float: none;
@@ -107,5 +126,8 @@
             margin-bottom: 0px;
         }
         
+    }
+    .social-icons {
+        display: none;
     }
 }
