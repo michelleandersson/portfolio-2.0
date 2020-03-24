@@ -256,6 +256,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   margin-right: 15px;
+  box-sizing: border-box;
 }
 
 .education__title {
@@ -320,6 +321,11 @@
   grid-gap: 30px;
 }
 
+.project__item {
+  box-sizing: border-box;
+  margin: 0px 10px;
+}
+
 .projects__items-info {
   margin-bottom: 30px;
 }
@@ -343,6 +349,19 @@
   width: 100%;
 }
 
+@media screen and (max-width: 340px) {
+  .projects__item-text {
+    width: 90%;
+  }
+
+  .project__item-link {
+    width: 70%;
+  }
+
+  .projects__item-img {
+    width: 80%;
+  }
+}
 .contact {
   margin-left: 50px;
   margin-right: 50px;
@@ -500,6 +519,7 @@ body {
   width: 75%;
   height: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   float: right;
 }
 @media screen and (max-width: 800px) {

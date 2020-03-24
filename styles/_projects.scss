@@ -31,6 +31,11 @@
     grid-gap: 30px; 
 }
 
+.project__item {
+    box-sizing: border-box;
+    margin: 0px 10px;
+}
+
 .projects__items-info {
     margin-bottom: 30px;
 }
@@ -53,4 +58,22 @@
 .projects__item-img {
     width: 100%;
 }
+
+@media screen and (max-width: 360px) {
+    
+}
+@media screen and (max-width: 350px) {
+    
+}
+@media screen and (max-width: 340px) {
+    .projects__item-text {
+        width: 90%;
+    }
+    .project__item-link {
+        width: 70%;
+    }
+    .projects__item-img {
+        width: 80%;
+    }
+}    
 
