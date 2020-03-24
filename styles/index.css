@@ -69,6 +69,13 @@
   color: #fff;
   background-color: #384049;
 }
+@media screen and (max-width: 420px) {
+  .sidebar .nav__link > a {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-right: 10px;
+  }
+}
 
 .social-icons {
   display: block;
@@ -134,11 +141,6 @@
 
   .social-icons {
     display: none;
-  }
-}
-@media screen and (max-width: 420px) {
-  .nav__link > a {
-    font-size: 10px;
   }
 }
 .top {
