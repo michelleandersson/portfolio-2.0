@@ -136,6 +136,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 420px) {
+  .nav__link > a {
+    font-size: 10px;
+  }
+}
 .top {
   padding: 260 80px;
   position: relative;
@@ -148,6 +153,11 @@
   background-position: center;
   background-size: cover;
   z-index: 2;
+}
+@media screen and (max-width: 385px) {
+  .top {
+    height: 400px;
+  }
 }
 
 .top__overlay {
