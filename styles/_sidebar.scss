@@ -90,11 +90,16 @@
 		&:hover {
             color: $black;
             background-color: $sidebar-bg;
-		}
+        }
+        &:focus {
+            color: $accent;
+        }
+        &:active {
+            color: $accent; 
+        } 
 	}
 }
 
- /*fix name and title in media 700*/
 @media screen and (max-width: 800px) {
     .sidebar {
       width: 100%;
