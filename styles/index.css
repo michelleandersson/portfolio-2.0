@@ -349,6 +349,7 @@
 
 .projects__item-img {
   width: 100%;
+  border: 2px solid #dddddd;
 }
 
 @media screen and (max-width: 340px) {
